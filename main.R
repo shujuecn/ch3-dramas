@@ -86,7 +86,7 @@ print(df, n = 20)
 rio::export(
   df,
   file = paste0(
-    "best-ch3-dramas ",
+    "output/best-ch3-dramas ",
     gsub(":", ".", Sys.time()),
     ".csv"
   )
